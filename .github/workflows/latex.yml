@@ -1,0 +1,28 @@
+name: Compile LaTeX report
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install standard TeX packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends texlive-latex-recommended texlive-fonts-recommended lmodern latexmk poppler-utils
+      - name: Compile and check the ten-page limit
+        run: |
+          latexmk -pdf -pdflatex='pdflatex -no-shell-escape %O %S' -interaction=nonstopmode -halt-on-error -file-line-error -outdir=build report.tex
+          if grep -E 'Overfull|undefined references|undefined citations|Missing character' build/report.log; then exit 1; fi
+          pages=$(pdfinfo build/report.pdf | awk '/^Pages:/ {print $2}')
+          test "$pages" -ge 1 && test "$pages" -le 10
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BIAL-2026-scientific-report
+          path: build/report.pdf
+          if-no-files-found: error

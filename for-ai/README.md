@@ -53,7 +53,7 @@ leave evidence, blockers, and a concrete next action in that same state owner.
 ## New-project state
 
 Created: 2026-10-30
-Repository: Not created (-LocalOnly)
-Visibility at initialization: local-only
+Repository: https://github.com/GeorgeFejer91/BIAL-report-2026-latex
+Visibility target: public; verify live GitHub state before claiming publication.
 
-No product stack or output tree is implied by this bootstrap.
+Product: root-level report.tex, sections/, latex/, and latexmkrc; pdfLaTeX.

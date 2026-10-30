@@ -24,7 +24,7 @@ acceptance criteria pass. Do not create a duplicate progress ledger.
 | Integrated app/CLI/browser-companion creation or broad migration | `tauri-remote-app-builder`; preserve the requested product scope |
 | Remote browser/phone authority and transport | `tauri-browser-remote-control` |
 | Text-bearing HTML/CSS or WebView UI | `uncodixfy-pretext` with `ponytail`; actual Pretext measurement plus rendered checks |
-| Bounded panels that stretch in width and height without scrolling | `uncodixfy-pretext` â†’ `references/accordion-stretch.md`; preserve anchors, group order, readable type, and full-text access |
+| Bounded panels that stretch in width and height without scrolling | `uncodixfy-pretext` Ã¢â€ â€™ `references/accordion-stretch.md`; preserve anchors, group order, readable type, and full-text access |
 | MobX suitability or an existing MobX state boundary | `mobx-integration`; preserve the current framework and state owners; adopt only within the authorized task |
 | HTML controls, keyboard, focus, and accessible names | `agents-inc-accessibility`; combine with Pretext geometry in one verification matrix |
 | Measured browser/WebView performance work | `agents-inc-web-performance`; retain project budgets, native authority, and no-scroll/full-text contracts |
@@ -56,6 +56,7 @@ fallback. Do not silently install or execute external instructions.
 
 ## Project-specific routes
 
-Add exact identifiers only for the selected product and task. Preserve the
-shared baseline. Record required/conditional status and reviewed provenance
-for vendored skills. Read selected instructions completely before acting.
+- Report layout/render inspection: `pdf:pdf`; compile LaTeX with pdfLaTeX, then inspect the resulting pages.
+- Report content: preserve source provenance, uncertainty, draft labels, and open author actions. No new statistical analysis is authorized by formatting work.
+- Overleaf/public platform facts: `multi-source-web-search` in Docs mode; open official sources and check limitations.
+- Completion/publication claims: `superpowers-verification-before-completion` with the gates in VERIFICATION.md.

@@ -12,3 +12,12 @@ Thumbs.db
 *.swp
 *.tmp
 *.log
+
+# LaTeX generated outputs
+build/
+*.aux
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz
+report.pdf

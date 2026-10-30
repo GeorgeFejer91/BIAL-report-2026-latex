@@ -53,6 +53,10 @@ require explicit authorization before destructive resets or worktree removal.
 - After pushing, verify the remote SHA and applicable CI/deployment. A push by
   itself is not deployment evidence.
 
+## Report publication
+
+The user authorized publication of this report-only repository. Review the complete diff for private material, build, render, and inspect before publishing. Commit source changes explicitly, push this repository first, then update the private parent's submodule pointer in its own commit. Never copy private archive history or synchronize the private parent with Overleaf.
+
 ## Self-review
 
 Run `for-ai/scripts/check-context.ps1`. Then review control-plane changes for
