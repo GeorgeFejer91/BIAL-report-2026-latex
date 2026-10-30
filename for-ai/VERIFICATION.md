@@ -10,7 +10,7 @@ pdfinfo build/report.pdf
 pdftoppm -png build/report.pdf build/page
 ```
 
-Require 1â€“10 A4 pages, no compilation errors, overfull boxes, missing glyphs, or unresolved references. Inspect every rendered page for readable tables, clipping, and page breaks. Compilation does not validate scientific claims or imply submission.
+Require 1–10 A4 pages, no compilation errors, overfull boxes, missing glyphs, or unresolved references. Inspect every rendered page for readable tables, clipping, and page breaks. Compilation does not validate scientific claims or imply submission.
 
 On Windows, latexmk needs Perl. The installed Git for Windows Perl can be placed on the current process PATH. The alternative is two pdfLaTeX passes; no Perl is required for that route.
 

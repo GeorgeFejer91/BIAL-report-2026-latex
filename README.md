@@ -1,12 +1,12 @@
 # BIAL 2026 scientific report
 
-LaTeX author-review draft for **grant 308/22 â€” Altered States of Viscereality**.
+LaTeX author-review draft for **grant 308/22 — Altered States of Viscereality**.
 
-**[Open in Overleaf](https://www.overleaf.com/docs?snip_uri=https%3A%2F%2Fgithub.com%2FGeorgeFejer91%2FBIAL-report-2026-latex%2Farchive%2Frefs%2Fheads%2Fmain.zip)** Â· [Download source ZIP](https://github.com/GeorgeFejer91/BIAL-report-2026-latex/archive/refs/heads/main.zip)
+**[Open in Overleaf](https://www.overleaf.com/docs?snip_uri=https%3A%2F%2Fgithub.com%2FGeorgeFejer91%2FBIAL-report-2026-latex%2Farchive%2Frefs%2Fheads%2Fmain.zip)** · [Download source ZIP](https://github.com/GeorgeFejer91/BIAL-report-2026-latex/archive/refs/heads/main.zip)
 
-The Overleaf link imports a new copy. Set **Main document: `report.tex`** and **Compiler: pdfLaTeX**, then Recompile. Alternatively upload the source ZIP using **New project â†’ Upload project**. Use the current TeX Live version offered by Overleaf. No local paths, private files, external fonts, shell escape, Python, or bibliography service are needed to compile.
+The Overleaf link imports a new copy. Set **Main document: `report.tex`** and **Compiler: pdfLaTeX**, then Recompile. Alternatively upload the source ZIP using **New project → Upload project**. Use the current TeX Live version offered by Overleaf. No local paths, private files, external fonts, shell escape, Python, or bibliography service are needed to compile.
 
-For ongoing synchronization, use **New project â†’ GitHub repo** and select this repository. This requires Overleaf's GitHub synchronization feature (premium or qualifying institutional access); push/pull is manual. ZIP import does not create a synchronized project. See [Overleaf's GitHub instructions](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization) and [main-document guidance](https://docs.overleaf.com/getting-started/recompiling-your-project/the-main-document).
+For ongoing synchronization, use **New project → GitHub repo** and select this repository. This requires Overleaf's GitHub synchronization feature (premium or qualifying institutional access); push/pull is manual. ZIP import does not create a synchronized project. See [Overleaf's GitHub instructions](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization) and [main-document guidance](https://docs.overleaf.com/getting-started/recompiling-your-project/the-main-document).
 
 ## Editing and compiling
 
@@ -32,7 +32,7 @@ Or run `pdflatex -interaction=nonstopmode -halt-on-error report.tex` twice. The 
 
 ## Scientific status and publication boundary
 
-This is an **author-review draft**, not a submitted or approved final report. Final peripersonal-space results, ethics/reporting-period confirmation, journal status, and bibliographic checks remain open. The scientific report must stay within 10 pages.
+This is an **author-review draft**, not a submitted or approved final report. Study 5 boundary inference remains unresolved, Study 6 collection is investigator-reported as 8/24, and PPS Kit is documented as a methodological output. Final analyses, recruitment/protocol reconciliation, ethics/reporting-period confirmation, journal status, and bibliographic checks remain open. The scientific report must stay within 10 pages.
 
 The Research Square preprint is [10.21203/rs.3.rs-10842634/v1](https://doi.org/10.21203/rs.3.rs-10842634/v1). The transcribed results use a later manuscript snapshot, identified in the references; they have not been newly analyzed or revalidated against that preprint.
 

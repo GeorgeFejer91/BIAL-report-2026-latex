@@ -1,6 +1,6 @@
 # Durable decisions
 
-## D-0001 â€” Independent public LaTeX report
+## D-0001 — Independent public LaTeX report
 
 Accepted 30 October 2026. LaTeX is the sole maintained report source. The root-level report.tex uses pdfLaTeX and standard packages, with prose split into sections and shared formatting in latex/preamble.tex.
 
