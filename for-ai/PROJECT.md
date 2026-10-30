@@ -1,22 +1,24 @@
-# Project contract and active handoff
+# Public report contract and handoff
 
-## Goal and ownership
+Maintain the scientific report for BIAL 308/22 in LaTeX, independently buildable from this repository. Cutoff: 30 October 2026. The user approved completion of preparable documents while clearly identifying unfinished research and external obligations. The title Scientific final report describes the document, not grant closure.
 
-Maintain the public scientific report for BIAL grant 308/22 entirely in LaTeX. The repository is self-contained for Overleaf, with `report.tex` at its root and pdfLaTeX as its compiler. `latex/preamble.tex` owns formatting; `sections/` owns report prose, tables, numbered sources, and the separate public-summary fragment. Never regenerate these files from Word.
+## Current task
 
-The user authorized a separate public report repository on 30 October 2026, with independent Git history. A private evidence archive references it as a submodule. The public project must compile without that archive, submodules, LFS, local fonts, or generated inputs.
+- [x] Rewrite all scientific sections against application/agreement, criticism correspondence, public preprint/supplement and current study evidence.
+- [x] Include methods, preliminary results, design changes, expected/achieved outputs, public links and original portal screenshot within ten pages.
+- [x] Keep public-summary text separate and exclude private source files.
+- [x] Finish final independent-source build, all ten rendered scientific pages and fresh whole-branch review; prepare local commit only.
 
-## Active checklist
-
-- [x] Transfer the scientific draft and public-summary fragment to editable LaTeX.
-- [x] Exclude private correspondence, attachments, financial documents, and archive history.
-- [x] Verify clean compilation, page limit, and rendered layout: MiKTeX pdfLaTeX, six A4 pages, no overfull boxes; every page inspected.
-- [x] Publish public main; verify Linux CI for report-source revision d743d2e and independent public ZIP compilation. The Overleaf link reaches its login page.
+The parent private workspace owns final verification receipts, source ledger and the submission bundle. This child contains only public report text and the explicitly authorized screenshot. The public-source ZIP must use an explicit allowlist. No email, contract, financial attachment, private Study 6 source or participant-level CSV may enter this repository.
 
 ## Evidence boundaries
 
-Preserve visible author actions and draft status. The 39-person subjective-study sample is not the PPS sample. Do not invent final PPS outcomes, ethics coverage, journal acceptance, institutional certification, or actual submission. The Research Square DOI identifies a public preprint; statistics are transcribed from the later 22 October manuscript revision recorded in the references.
+Use public Research Square v1/supplement for subjective numbers. Distinguish non-PLV partial-F analyses from the PLV mixed model. Exclude withdrawn post-unmasking endpoints. Registration followed collection of 19 subjective participants and eight PPS pilots; do not describe the entire collection as prospective.
 
-The coordinated 30 October update is included across all sections and the public summary: Study 5 boundary inference is unresolved; Study 6 collection is investigator-reported as 8/24; PPS Kit is an additional methodological output. Source revision d743d2e passed [Linux CI](https://github.com/GeorgeFejer91/BIAL-report-2026-latex/actions/runs/41063598302), six-page local compilation, independent public ZIP compilation, full visual inspection, and independent content/layout review. Subsequent control-plane-only commits do not change those report sources; verify current Git and workflow status when resuming.
+Study 5 has 42 released records, 40 primary behavioural records, 39 combined complete records and 41 questionnaire-only records. The 17 October reference and subsequent 20/23 October analyses are distinct. Later joint models exist, but reliable boundary effects remain unestablished. Study 6 has eight participants with both mappings plus three partial questionnaire records; target 24 and physiological eligibility are separate. Its submitted registration is unconfirmed. PPS Kit's paper is in preparation for Behavior Research Methods.
 
-The Overleaf import link was tested and reached login. Compilation inside an authenticated Overleaf account was not observed. Next user action: sign in and import this public project, select report.tex / pdfLaTeX, and Recompile. Scientific completion still depends on the author confirmations described above; no final submission is claimed.
+The screenshot displays 25 September 2026. Editorial decision pending at 30 October is investigator-reported. Six-week recruitment delay is also investigator-reported; general publishing-capacity context does not prove an AI cause. Journal acceptance and grant completion remain unmet.
+
+## Git boundary
+
+Working branch: codex/final-report-package, based on 717a92f. User authorized local reviewable commits only for this task. No new push, Linux CI or hosted Overleaf compile. Recheck Git at handoff; the parent's final commit pins the child exactly.

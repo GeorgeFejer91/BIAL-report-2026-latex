@@ -16,6 +16,8 @@ On Windows, latexmk needs Perl. The installed Git for Windows Perl can be placed
 
 ## Standalone and publication gates
 
+For the 30 October completion task, the user authorizes local preparation and reviewable commits only. New push, Linux CI and hosted Overleaf verification are deferred, not blockers to local document preparation. The original journal portal screenshot is explicitly authorized in assets/ and the report appendix. Recheck all ten rendered scientific pages, archive hash equality and the independent source ZIP build.
+
 - Run `powershell -NoProfile -ExecutionPolicy Bypass -File for-ai/scripts/check-context.ps1 -ProjectRoot . -RequireRemote`.
 - Review explicit staged paths and all new history: no EML, attachments, finance records, account links, participant data, private local paths, or private archive objects.
 - Keep report.tex and latexmkrc at the root. Only standard TeX packages and relative input paths are allowed.

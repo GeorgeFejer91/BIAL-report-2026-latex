@@ -1,41 +1,30 @@
-# BIAL 2026 scientific report
+# BIAL 308/22 scientific final report
 
-LaTeX author-review draft for **grant 308/22 — Altered States of Viscereality**.
+LaTeX source for the scientific report at the **30 October 2026 cutoff**. It documents completed outputs and unfinished work. It does not claim journal acceptance, Foundation approval or submission.
 
-**[Open in Overleaf](https://www.overleaf.com/docs?snip_uri=https%3A%2F%2Fgithub.com%2FGeorgeFejer91%2FBIAL-report-2026-latex%2Farchive%2Frefs%2Fheads%2Fmain.zip)** · [Download source ZIP](https://github.com/GeorgeFejer91/BIAL-report-2026-latex/archive/refs/heads/main.zip)
+The report is self-contained and limited to ten pages, including references and the investigator-authorized original journal-status screenshot. Private contracts, correspondence, finance records and participant-level data are excluded.
 
-The Overleaf link imports a new copy. Set **Main document: `report.tex`** and **Compiler: pdfLaTeX**, then Recompile. Alternatively upload the source ZIP using **New project → Upload project**. Use the current TeX Live version offered by Overleaf. No local paths, private files, external fonts, shell escape, Python, or bibliography service are needed to compile.
+## Build
 
-For ongoing synchronization, use **New project → GitHub repo** and select this repository. This requires Overleaf's GitHub synchronization feature (premium or qualifying institutional access); push/pull is manual. ZIP import does not create a synchronized project. See [Overleaf's GitHub instructions](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization) and [main-document guidance](https://docs.overleaf.com/getting-started/recompiling-your-project/the-main-document).
-
-## Editing and compiling
-
-```text
-report.tex                    main document, at the project root
-latex/preamble.tex            shared LaTeX formatting
-sections/aims.tex              aims and implementation
-sections/methods.tex           study methods and author actions
-sections/results-discussion.tex
-sections/conclusions.tex       conclusions and output indicators
-sections/references.tex        numbered sources and public DOI links
-sections/public-summary.tex    separate fragment for the official template
-latexmkrc                     pdfLaTeX defaults
-```
-
-Edit these `.tex` files directly. LaTeX is the sole maintained report source. The public-summary fragment is not included in the scientific report's page count.
+Run pdfLaTeX twice from this directory:
 
 ```sh
-latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build report.tex
+pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error report.tex
+pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error report.tex
 ```
 
-Or run `pdflatex -interaction=nonstopmode -halt-on-error report.tex` twice. The first command writes `build/report.pdf`; the fallback writes `report.pdf`. GitHub Actions also compiles on Linux and provides a downloadable PDF artifact.
+Alternatively use `latexmk -pdf -outdir=build report.tex`. Standard TeX Live or MiKTeX packages suffice. No private parent, submodule, local font, external service or bibliography processor is needed.
 
-## Scientific status and publication boundary
+For Overleaf, upload the source ZIP and choose **report.tex / pdfLaTeX**. [Import published main](https://www.overleaf.com/docs?snip_uri=https%3A%2F%2Fgithub.com%2FGeorgeFejer91%2FBIAL-report-2026-latex%2Farchive%2Frefs%2Fheads%2Fmain.zip) imports the published branch, which may precede a locally prepared revision. GitHub synchronization requires the corresponding Overleaf account feature and manual synchronization. A local compile is not an observed hosted compile.
 
-This is an **author-review draft**, not a submitted or approved final report. Study 5 boundary inference remains unresolved, Study 6 collection is investigator-reported as 8/24, and PPS Kit is documented as a methodological output. Final analyses, recruitment/protocol reconciliation, ethics/reporting-period confirmation, journal status, and bibliographic checks remain open. The scientific report must stay within 10 pages.
+## Source ownership
 
-The Research Square preprint is [10.21203/rs.3.rs-10842634/v1](https://doi.org/10.21203/rs.3.rs-10842634/v1). The transcribed results use a later manuscript snapshot, identified in the references; they have not been newly analyzed or revalidated against that preprint.
+- `report.tex`: scientific report entry point.
+- `sections/`: narrative, comparison/results tables, references and screenshot appendix.
+- `sections/public-summary.tex`: separate public-results text, outside scientific page count.
+- `latex/preamble.tex`: shared typography.
+- `assets/journal-status-original.png`: unaltered user-supplied screenshot, explicitly approved for inclusion.
 
-This repository has independent history and contains report text only. Emails, contracts, finance records, participant-level records, source attachments, and private archive history are excluded. Internal sources are described without reproducing correspondence. The public repository has no submodules and does not require access to its private parent.
+Results use the public [Research Square v1 preprint](https://doi.org/10.21203/rs.3.rs-10842634/v1) and supplement, with later withdrawn endpoints excluded. Study 5 uses the documented current analysis amendments; Study 6 distinguishes eight participants with both mappings from three partial questionnaire records and target 24. Official forms, finance certification and portal submission belong to the private preparation package.
 
-Agent context: [for-ai/README.md](for-ai/README.md).
+Current work is prepared on a local review branch. No new push or CI/Overleaf-hosted build is claimed. Agent context starts at [for-ai/README.md](for-ai/README.md).
