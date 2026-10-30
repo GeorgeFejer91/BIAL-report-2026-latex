@@ -11,10 +11,12 @@ The user authorized a separate public report repository on 30 October 2026, with
 - [x] Transfer the scientific draft and public-summary fragment to editable LaTeX.
 - [x] Exclude private correspondence, attachments, financial documents, and archive history.
 - [x] Verify clean compilation, page limit, and rendered layout: MiKTeX pdfLaTeX, six A4 pages, no overfull boxes; every page inspected.
-- [ ] Publish public main and verify Linux CI and Overleaf import behavior.
+- [x] Publish public main; verify Linux CI for report-source revision d743d2e and independent public ZIP compilation. The Overleaf link reaches its login page.
 
 ## Evidence boundaries
 
 Preserve visible author actions and draft status. The 39-person subjective-study sample is not the PPS sample. Do not invent final PPS outcomes, ethics coverage, journal acceptance, institutional certification, or actual submission. The Research Square DOI identifies a public preprint; statistics are transcribed from the later 22 October manuscript revision recorded in the references.
 
-The coordinated 30 October update is included across all sections and the public summary: Study 5 boundary inference is unresolved; Study 6 collection is investigator-reported as 8/24; PPS Kit is an additional methodological output. Next action: publish this verified revision and check its Linux CI. The Overleaf import link reaches login; a hosted compiler run has not been observed. Scientific completion remains dependent on author confirmations even after the formatting migration is complete.
+The coordinated 30 October update is included across all sections and the public summary: Study 5 boundary inference is unresolved; Study 6 collection is investigator-reported as 8/24; PPS Kit is an additional methodological output. Source revision d743d2e passed [Linux CI](https://github.com/GeorgeFejer91/BIAL-report-2026-latex/actions/runs/41063598302), six-page local compilation, independent public ZIP compilation, full visual inspection, and independent content/layout review. Subsequent control-plane-only commits do not change those report sources; verify current Git and workflow status when resuming.
+
+The Overleaf import link was tested and reached login. Compilation inside an authenticated Overleaf account was not observed. Next user action: sign in and import this public project, select report.tex / pdfLaTeX, and Recompile. Scientific completion still depends on the author confirmations described above; no final submission is claimed.
