@@ -7,6 +7,7 @@ Maintain the scientific report for BIAL 308/22 in LaTeX, independently buildable
 - [x] 2 November compliance correction: replace the qualitative output summary with the official nine-category numerical table and explicit documentary-count caveats; retain ten scientific pages.
 - [x] Replace the separate public abstract with the required five-part, 1,495-character text. Private parent owns completed original forms, keywords, grouped bibliography and contacts.
 - [x] Distinguish incomplete original Study II work from the later Study 6 extension; do not assume a separate closure condition without BIAL confirmation.
+- [x] Verify the open-access published AlpCHI paper's BIAL acknowledgement (printed p.85), link it directly, and use the correct 1st International Conference venue. Original full-text/provenance remain in the private parent package.
 
 Prior 30 October preparation:
 
