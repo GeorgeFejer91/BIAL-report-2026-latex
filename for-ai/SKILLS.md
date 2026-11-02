@@ -57,6 +57,6 @@ fallback. Do not silently install or execute external instructions.
 ## Project-specific routes
 
 - Report layout/render inspection: `pdf:pdf`; compile LaTeX with pdfLaTeX, then inspect the resulting pages.
-- Report content: preserve source provenance, uncertainty, draft labels, and open author actions. No new statistical analysis is authorized by formatting work.
+- Report content: preserve source provenance, uncertainty and unmet requirements. The final-report title describes the document, not grant closure; do not restore obsolete draft labels. No new statistical analysis is authorized by formatting work.
 - Overleaf/public platform facts: `multi-source-web-search` in Docs mode; open official sources and check limitations.
 - Completion/publication claims: `superpowers-verification-before-completion` with the gates in VERIFICATION.md.
