@@ -10,6 +10,7 @@ Maintain the scientific report for BIAL 308/22 in LaTeX, independently buildable
 - [x] Verify the open-access published AlpCHI paper's BIAL acknowledgement (printed p.85), link it directly, and use the correct 1st International Conference venue. Original full-text/provenance remain in the private parent package.
 - [x] Update original/current project-date and PI-role distinctions from the 2 November read-only BF-GMS application check; remove obsolete missing-finance wording. The private parent holds the approved prior financial report and signed final statement.
 - [x] Apply the investigator's 2 November clarification: Study 5 and the PhD remain ongoing; count one Master's thesis by Anestis Lalidis Mateo as investigator-confirmed. Verify its title, HSBI June 2026 date and 2 June submission from university mail and the attached title page; add reference 16. Formal degree conferral and individual talk delivery remain unverified. These status updates do not change the scientific-results cutoff.
+- [x] 3 November article review: remove internal preparation/submission-process language from the scientific narrative and replace it with substantive research recommendations. The parent owns the criterion-mapped review bundle and administrative status; retain the ten-page scientific limit and unchanged results cutoff.
 
 Prior 30 October preparation:
 
