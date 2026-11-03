@@ -4,6 +4,8 @@ Evidence must match the claim. Report missing surfaces as BLOCKED or NOT RUN.
 
 ## Local build and layout
 
+Before revising scientific content, trace claims exclusively to the four selected works: Breathing Experience, Respiratory PPS, PPS Toolkit and the eMotion outline. Keep the outline's limits explicit. Describe the preprint as almost publication-ready and awaiting the final reviewer's approval, per the 3 November investigator update; do not imply established journal acceptance. MuC 2025 and AlpCHI 2026 must remain passing references to prior work. The private parent owns GitHub links for works not fully published and the two published-original PDFs; archival copy checks do not establish report compliance. A guidance-only edit requires the local context checker and `git diff --check`, not a new PDF build.
+
 ```sh
 latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error -outdir=build report.tex
 pdfinfo build/report.pdf

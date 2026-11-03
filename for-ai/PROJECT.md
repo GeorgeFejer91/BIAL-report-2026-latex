@@ -4,6 +4,10 @@ Maintain the scientific report for BIAL 308/22 in LaTeX, independently buildable
 
 ## Current task
 
+- [x] Record the final four-work source selection and the investigator's almost-publication-ready/final-reviewer preprint status. Local context and whitespace checks passed. This guidance-only update does not alter report sources or require a PDF rebuild.
+
+- [ ] Audit the next scientific report revision against the 3 November source restriction: use only information contained in the four selected works (Breathing Experience, Respiratory PPS, PPS Toolkit and the eMotion outline); cite the earlier MuC 2025 and AlpCHI 2026 studies only in passing. The existing report has not yet been audited against this new restriction.
+
 - [x] Use full descriptive names on first mention, then the short names Breathing Experience, Respiratory PPS and eMotion throughout authored reports/forms. Respiratory PPS data collection is complete; analysis remains ongoing (3 November clarification). Original evidence and source identifiers remain unchanged.
 
 - [x] 2 November compliance correction: replace the qualitative output summary with the official nine-category numerical table and explicit documentary-count caveats; retain ten scientific pages.
@@ -25,6 +29,8 @@ The parent private workspace owns final verification receipts, source ledger and
 
 ## Evidence boundaries
 
+The investigator's 3 November clarification selects four current works: the Breathing Experience preprint, Respiratory PPS, PPS Toolkit and the eMotion outline, superseding the initial three-publication wording and the earlier broad synthesis of correspondence, registrations and repository evidence. The scientific narrative must rely exclusively on information contained in these four works. Scientific methods, results, interpretations and conclusions absent from them must not be added from general repository files, other evidence or new analyses. MuC 2025 and AlpCHI 2026 receive only brief references to prior work. Preserve actual publication status and the outline's limits; flag missing information rather than infer it. The investigator describes the preprint as almost publication-ready, awaiting approval from the final reviewer; retain its under-review status because acceptance is not yet established. The private parent owns the reference index, GitHub links for works not fully published, and original MuC/AlpCHI PDFs; do not copy the private reference archive into this public repository.
+
 Use these full/short names: Box Breathing and Altered-State Experience (Breathing Experience); Respiratory Modulation of Peripersonal Space Representation (Respiratory PPS); Coherence, Energy and Affective State Mapping (eMotion). Do not use the internal numbered study labels in authored deliverables. Collection-complete/analysis-ongoing wording applies to Respiratory PPS; eMotion retains its last documented eight complete plus three partial records/target24 pending clarification.
 
 
@@ -36,4 +42,4 @@ The screenshot displays 25 September 2026. Editorial decision pending at 30 Octo
 
 ## Git boundary
 
-Working branch: codex/final-report-package, based on 717a92f. On 3 November the user authorized pushing the completed report to GitHub. Merge the remote participant-accounting update with the current audited counts. Publish the public child before the private parent and verify the exact remote commits and Linux build. Recheck Git at handoff; the parent's final commit pins the child exactly.
+Working branch: codex/final-report-package. The reviewed scientific report was published at faf8d5b; the source-reference follow-up changes only this control plane. On 3 November the user authorized GitHub publication and requested committing all current changes. Publish the public child before the private parent and verify exact remote commits. Read Git for the current guidance commit. The private parent pins this child exactly and retains the two published-original PDFs; the four not fully published works are repository links. Next report action is the four-work scientific-source audit above; no report rewrite is part of this guidance/reference update.
