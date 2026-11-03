@@ -25,6 +25,6 @@ For Overleaf, upload the source ZIP and choose **report.tex / pdfLaTeX**. [Impor
 - `latex/preamble.tex`: shared typography.
 - `assets/journal-status-original.png`: unaltered user-supplied screenshot, explicitly approved for inclusion.
 
-Results use the public [Research Square v1 preprint](https://doi.org/10.21203/rs.3.rs-10842634/v1) and supplement, with later withdrawn endpoints excluded. Study 5 uses the documented current analysis amendments; Study 6 distinguishes eight participants with both mappings from three partial questionnaire records and target 24. Official forms, finance certification and portal submission belong to the private preparation package.
+Results use the public [Research Square v1 preprint](https://doi.org/10.21203/rs.3.rs-10842634/v1) and supplement, with later withdrawn endpoints excluded. Respiratory PPS data collection is complete and analysis remains ongoing, using the documented analysis amendments; eMotion distinguishes eight participants with both mappings from three partial questionnaire records and target 24. Official forms, finance certification and portal submission belong to the private preparation package.
 
 Current work is prepared on a local review branch. No new push or CI/Overleaf-hosted build is claimed. Agent context starts at [for-ai/README.md](for-ai/README.md).
