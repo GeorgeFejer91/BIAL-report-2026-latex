@@ -36,4 +36,4 @@ The screenshot displays 25 September 2026. Editorial decision pending at 30 Octo
 
 ## Git boundary
 
-Working branch: codex/final-report-package, based on 717a92f. User authorized local reviewable commits only for this task. No new push, Linux CI or hosted Overleaf compile. Recheck Git at handoff; the parent's final commit pins the child exactly.
+Working branch: codex/final-report-package, based on 717a92f. On 3 November the user authorized pushing the completed report to GitHub. Merge the remote participant-accounting update with the current audited counts. Publish the public child before the private parent and verify the exact remote commits and Linux build. Recheck Git at handoff; the parent's final commit pins the child exactly.
